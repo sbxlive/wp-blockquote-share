@@ -3,11 +3,11 @@
 .quote-container-Mahesh-Technicals,
 .mycard,
 blockquote {
-blockquote {
 border-radius: 10px;
 box-shadow: 0 0 2px #ccf, rgba(0, 0, 0, 0.35) 0px 2px 5px;
 background-size: cover;
 }
+
 
 blockquote:before,
 blockquote:after {
