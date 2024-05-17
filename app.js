@@ -1,7 +1,7 @@
-// Style 1 : background image red. By Swapnil B
+// Style 1 : background image red. By Mahesh Technicals
 
 // Iterate through quote containers and mycard elements
-document.querySelectorAll(".quote-container-Swapnil-B, .mycard, blockquote").forEach((blockquote) => {
+document.querySelectorAll(".quote-container-Mahesh-Technicals, .mycard, blockquote").forEach((blockquote) => {
   // Modify the text within the blockquote elements
   let modifiedText = blockquote.innerText.split(",").join(",\n").split("।").join("|\n");
 
@@ -13,10 +13,10 @@ document.querySelectorAll(".quote-container-Swapnil-B, .mycard, blockquote").for
   let actionContainer = document.createElement("div");
   actionContainer.classList.add("quote-actions-Mahesh-Technicals");
   actionContainer.innerHTML = `
-    <span class="copy-action-Swapnil-B" onclick="copyText(this)"><i class="fa-regular fa-copy"></i></span>
-    <span class="facebook-action-Swapnil-B" onclick="share('facebook', this)"><i class="fa-brands fa-facebook"></i></span>
-    <span class="whatsapp-action-Swapnil-B" onclick="share('whatsapp', this)"><i class="fa-brands fa-whatsapp"></i></span>
-    <span class="telegram-action-Swapnil-B" onclick="share('telegram', this)"><i class="fa-brands fa-telegram"></i></span>`;
+    <span class="copy-action-Mahesh-Technicals" onclick="copyText(this)"><i class="fa-regular fa-copy"></i></span>
+    <span class="facebook-action-Mahesh-Technicals" onclick="share('facebook', this)"><i class="fa-brands fa-facebook"></i></span>
+    <span class="whatsapp-action-Mahesh-Technicals" onclick="share('whatsapp', this)"><i class="fa-brands fa-whatsapp"></i></span>
+    <span class="telegram-action-Mahesh-Technicals" onclick="share('telegram', this)"><i class="fa-brands fa-telegram"></i></span>`;
 
   blockquote.append(actionContainer);
 });
@@ -58,12 +58,12 @@ function highlightElement(element) {
 }
 
 // Add click event listeners to action elements for copying and sharing
-document.querySelectorAll(".copy-action-Swapnil-B, .facebook-action-Swapnil-B, .whatsapp-action-Swapnil-B, .telegram-action-Swapnil-B").forEach((el) => {
+document.querySelectorAll(".copy-action-Mahesh-Technicals, .facebook-action-Mahesh-Technicals, .whatsapp-action-Mahesh-Technicals, .telegram-action-Mahesh-Technicals").forEach((el) => {
   el.addEventListener("click", () => {
-    if (el.classList.contains("copy-action-Swapnil-B")) {
+    if (el.classList.contains("copy-action-Mahesh-Technicals")) {
       copyText(el);
     } else {
-      share(el.classList[0].replace("-action-Swapnil-B", ""), el);
+      share(el.classList[0].replace("-action-Mahesh-Technicals", ""), el);
     }
   });
 });
