@@ -1,7 +1,8 @@
-/* Style 1 : background image red. By Swapnil B*/
+/* Style 1 : background image red. By Mahesh Technicals*/
 
-.quote-container-Swapnil-B,
+.quote-container-Mahesh-Technicals,
 .mycard,
+blockquote {
 blockquote {
 border-radius: 10px;
 box-shadow: 0 0 2px #ccf, rgba(0, 0, 0, 0.35) 0px 2px 5px;
@@ -13,7 +14,7 @@ blockquote:after {
   display: none !important;
 }
 
-.quote-actions-Swapnil-B {
+.quote-actions-Mahesh-Technicals {
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -22,7 +23,7 @@ blockquote:after {
   width: 100%;
 }
 
-.quote-actions-Swapnil-B span {
+.quote-actions-Mahesh-Technicals span {
   padding: 5px 20px;
   display: flex;
   justify-content: center;
@@ -31,24 +32,24 @@ blockquote:after {
   align-items: center;
 }
 
-.quote-actions-Swapnil-B span i {
+.quote-actions-Mahesh-Technicals span i {
   color: white;
 }
 
-.quote-actions-Swapnil-B .copy-action-Swapnil-B {
+.quote-actions-Mahesh-Technicals .copy-action-Mahesh-Technicals {
   background: black;
 
 }
 
-.quote-actions-Swapnil-B .facebook-action-Swapnil-B {
+.quote-actions-Mahesh-Technicals .facebook-action-Mahesh-Technicals {
   background: #3B5998;
 }
 
-.quote-actions-Swapnil-B .whatsapp-action-Swapnil-B {
+.quote-actions-Mahesh-Technicals .whatsapp-action-Mahesh-Technicals {
   background: linear-gradient(to right, #25D366, #128C7E);
 }
 
-.quote-actions-Swapnil-B .telegram-action-Swapnil-B {
+.quote-actions-Mahesh-Technicals .telegram-action-Mahesh-Technicals {
   background: linear-gradient(to right, #1DA1F2, #1877F2);
 }
 
@@ -58,19 +59,19 @@ blockquote:after {
 @media only screen and (min-width: 768px) {
 
   /* Your styles for Windows laptops go here */
-  .quote-container-Swapnil-B,
+  .quote-container-Mahesh-Technicals,
   .mycard,
   blockquote {
     width: 500px;
     font-size: 16px;
   }
 
-  .quote-actions-Swapnil-B {
+  .quote-actions-Mahesh-Technicals {
     margin-top: 40px;
     justify-content: space-evenly;
   }
 
-  .quote-actions-Swapnil-B span {
+  .quote-actions-Mahesh-Technicals span {
     padding: 10px 30px;
   }
 
