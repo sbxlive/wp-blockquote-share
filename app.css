@@ -62,7 +62,7 @@ blockquote:after {
   .quote-container-Mahesh-Technicals,
   .mycard,
   blockquote {
-    width: 500px;
+    width: 100%;
     font-size: 16px;
   }
 
